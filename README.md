@@ -164,3 +164,14 @@ explorer(app, {
     ]
 });
 ```
+
+### Docker Image
+
+There's a prepared docker image already
+
+```bash
+docker pull rmachado/swagger-material-ui
+docker run --name swagger-material-ui -d -p 9000:80 rmachado/swagger-material-ui
+```
+
+Then open `http://localhost:9000` in your browser and edit the swagger url to point into your own `swagger.json`
