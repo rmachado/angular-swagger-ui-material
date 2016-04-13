@@ -129,7 +129,7 @@
                 //noinspection JSCheckFunctionSignatures
                 var swaggerUrl = $location.search()['url'] ||
                         (/^\/explorer/.test($window.location.pathname) ? './swagger.json' :
-                                'http://petstore.swagger.io/v2/swagger.json');
+                                'http://localhost:8000/api/swagger.json');
 
                 data.setUrl(swaggerUrl);
                 // data.validatorUrl = 'http://online.swagger.io/validator';
